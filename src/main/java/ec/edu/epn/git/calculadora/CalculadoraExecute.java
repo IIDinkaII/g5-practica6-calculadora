@@ -4,7 +4,7 @@ public class CalculadoraExecute {
     public static void main(String[] args){
         System.out.println("---- Ejecución Calculadora ----");
         Calculadora cal = new Calculadora();
-        int a = 6;
+        int a = 8;
         int b = 3;
         System.out.println("Los números son: " + a +" y "+ b);
         int suma = cal.addition(a,b);
@@ -13,5 +13,7 @@ public class CalculadoraExecute {
         System.out.println("Resta: " + resta);
         int multiplicacion = cal.multiplication(a,b);
         System.out.println("Multiplicación: " + multiplicacion);
+        double division = cal.division(a,b);
+        System.out.println("División: " + division);
     }
 }
