@@ -32,10 +32,10 @@ public class CalculadoraTest {
         assertEquals(7, c.subtraction(10, 3));
     }
 
-    @Test(expected = ArithmeticException.class)
-    public void given_two_integers_when_division_then_exception(){
+    @Test
+    public void given_two_integers_when_division_then_ok(){
         System.out.println("Test 3");
-        assertEquals(1, c.division(1, 0), 0);
+        assertEquals(2, c.division(8,4), 0);
     }
 
     @Test(timeout = 150)
