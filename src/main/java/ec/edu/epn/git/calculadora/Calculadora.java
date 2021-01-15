@@ -12,6 +12,10 @@ public class Calculadora {
         return a - b;
     }
 
+    public int multiplication(int a, int b) {
+        return a * b;
+    }
+
     @SuppressWarnings("IntegerDivisionInFloatingPointContext")
     public double division(int a, int b) {
         return a / b;

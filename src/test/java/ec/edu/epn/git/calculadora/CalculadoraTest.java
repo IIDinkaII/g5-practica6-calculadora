@@ -44,6 +44,12 @@ public class CalculadoraTest {
         c.timeout(100);
     }
 
+    @Test
+    public void given_two_integers_when_multiplication_then_ok() {
+        System.out.println("Test 5");
+        assertEquals(8, c.multiplication(4, 2));
+    }
+
     @After
     public void tearDown(){
         System.out.println("tearDown()");
